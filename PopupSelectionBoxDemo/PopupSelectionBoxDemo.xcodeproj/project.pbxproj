@@ -14,6 +14,14 @@
 		E74142CA1AC15E3F00CA648B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E74142C91AC15E3F00CA648B /* Images.xcassets */; };
 		E74142CD1AC15E3F00CA648B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E74142CB1AC15E3F00CA648B /* LaunchScreen.xib */; };
 		E74142D91AC15E4000CA648B /* PopupSelectionBoxDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E74142D81AC15E4000CA648B /* PopupSelectionBoxDemoTests.m */; };
+		E74142E51AC1611800CA648B /* LXSelectItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E74142E41AC1611800CA648B /* LXSelectItemView.m */; };
+		E79B33131AC3B06A009C4E7D /* people_radio_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E79B330F1AC3B06A009C4E7D /* people_radio_on.png */; };
+		E79B33141AC3B06A009C4E7D /* people_radio_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E79B33101AC3B06A009C4E7D /* people_radio_on@2x.png */; };
+		E79B33151AC3B06A009C4E7D /* people_radio.png in Resources */ = {isa = PBXBuildFile; fileRef = E79B33111AC3B06A009C4E7D /* people_radio.png */; };
+		E79B33161AC3B06A009C4E7D /* people_radio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E79B33121AC3B06A009C4E7D /* people_radio@2x.png */; };
+		E79B33181AC3B0BE009C4E7D /* CarStyleConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E79B33171AC3B0BE009C4E7D /* CarStyleConfig.plist */; };
+		E79B331B1AC3B433009C4E7D /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = E79B33191AC3B433009C4E7D /* car.png */; };
+		E79B331C1AC3B433009C4E7D /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E79B331A1AC3B433009C4E7D /* car@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,15 @@
 		E74142D21AC15E4000CA648B /* PopupSelectionBoxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopupSelectionBoxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74142D71AC15E4000CA648B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E74142D81AC15E4000CA648B /* PopupSelectionBoxDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupSelectionBoxDemoTests.m; sourceTree = "<group>"; };
+		E74142E31AC1611800CA648B /* LXSelectItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSelectItemView.h; sourceTree = "<group>"; };
+		E74142E41AC1611800CA648B /* LXSelectItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSelectItemView.m; sourceTree = "<group>"; };
+		E79B330F1AC3B06A009C4E7D /* people_radio_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people_radio_on.png; sourceTree = "<group>"; };
+		E79B33101AC3B06A009C4E7D /* people_radio_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people_radio_on@2x.png"; sourceTree = "<group>"; };
+		E79B33111AC3B06A009C4E7D /* people_radio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people_radio.png; sourceTree = "<group>"; };
+		E79B33121AC3B06A009C4E7D /* people_radio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people_radio@2x.png"; sourceTree = "<group>"; };
+		E79B33171AC3B0BE009C4E7D /* CarStyleConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CarStyleConfig.plist; sourceTree = "<group>"; };
+		E79B33191AC3B433009C4E7D /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		E79B331A1AC3B433009C4E7D /* car@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "car@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +98,7 @@
 		E74142BB1AC15E3F00CA648B /* PopupSelectionBoxDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E74142E21AC160E700CA648B /* CustomClass */,
 				E74142C01AC15E3F00CA648B /* AppDelegate.h */,
 				E74142C11AC15E3F00CA648B /* AppDelegate.m */,
 				E74142C31AC15E3F00CA648B /* ViewController.h */,
@@ -96,6 +114,13 @@
 		E74142BC1AC15E3F00CA648B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E79B33171AC3B0BE009C4E7D /* CarStyleConfig.plist */,
+				E79B330F1AC3B06A009C4E7D /* people_radio_on.png */,
+				E79B33101AC3B06A009C4E7D /* people_radio_on@2x.png */,
+				E79B33111AC3B06A009C4E7D /* people_radio.png */,
+				E79B33121AC3B06A009C4E7D /* people_radio@2x.png */,
+				E79B33191AC3B433009C4E7D /* car.png */,
+				E79B331A1AC3B433009C4E7D /* car@2x.png */,
 				E74142BD1AC15E3F00CA648B /* Info.plist */,
 				E74142BE1AC15E3F00CA648B /* main.m */,
 			);
@@ -117,6 +142,15 @@
 				E74142D71AC15E4000CA648B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74142E21AC160E700CA648B /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				E74142E31AC1611800CA648B /* LXSelectItemView.h */,
+				E74142E41AC1611800CA648B /* LXSelectItemView.m */,
+			);
+			name = CustomClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +233,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79B331C1AC3B433009C4E7D /* car@2x.png in Resources */,
+				E79B33141AC3B06A009C4E7D /* people_radio_on@2x.png in Resources */,
 				E74142C81AC15E3F00CA648B /* Main.storyboard in Resources */,
+				E79B331B1AC3B433009C4E7D /* car.png in Resources */,
+				E79B33161AC3B06A009C4E7D /* people_radio@2x.png in Resources */,
+				E79B33181AC3B0BE009C4E7D /* CarStyleConfig.plist in Resources */,
+				E79B33151AC3B06A009C4E7D /* people_radio.png in Resources */,
+				E79B33131AC3B06A009C4E7D /* people_radio_on.png in Resources */,
 				E74142CD1AC15E3F00CA648B /* LaunchScreen.xib in Resources */,
 				E74142CA1AC15E3F00CA648B /* Images.xcassets in Resources */,
 			);
@@ -222,6 +263,7 @@
 				E74142C51AC15E3F00CA648B /* ViewController.m in Sources */,
 				E74142C21AC15E3F00CA648B /* AppDelegate.m in Sources */,
 				E74142BF1AC15E3F00CA648B /* main.m in Sources */,
+				E74142E51AC1611800CA648B /* LXSelectItemView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +454,7 @@
 				E74142DE1AC15E4000CA648B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E74142DF1AC15E4000CA648B /* Build configuration list for PBXNativeTarget "PopupSelectionBoxDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				E74142E11AC15E4000CA648B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
