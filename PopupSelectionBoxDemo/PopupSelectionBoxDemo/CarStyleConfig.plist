@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>大型汽车</string>
+	<string>小型汽车</string>
+	<string>使馆汽车</string>
+	<string>领馆汽车</string>
+	<string>境外汽车</string>
+	<string>外籍汽车</string>
+	<string>两、三轮摩托车</string>
+	<string>轻便摩托车</string>
+	<string>使馆摩托车</string>
+	<string>领馆摩托车</string>
+	<string>境外摩托车</string>
+	<string>外籍摩托车</string>
+	<string>农用运输车</string>
+	<string>拖拉机</string>
+	<string>挂车</string>
+	<string>教练汽车</string>
+	<string>教练摩托车</string>
+	<string>试验汽车</string>
+	<string>试验摩托车</string>
+	<string>临时入境汽车</string>
+	<string>临时入境摩托车</string>
+	<string>临时行驶车</string>
+	<string>警用汽车</string>
+	<string>警用摩托车</string>
+	<string>原农机号牌</string>
+</array>
+</plist>
